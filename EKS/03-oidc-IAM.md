@@ -19,3 +19,6 @@ If not, run the below command
 ```
 eksctl utils associate-iam-oidc-provider --cluster $cluster_name --approve
 ```
+Run this if you see connection refused error
+
+aws eks update-kubeconfig --name demo-eks --region us-east-1
